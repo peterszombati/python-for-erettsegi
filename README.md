@@ -20,8 +20,8 @@ print(array[0])
 print(array[1][1])
 
 content = 'hello\nworld'
-content = content.split('\n')
 print(content)
+content = content.split('\n')
 print(content[1])
 ```
 ## If statement
