@@ -30,12 +30,16 @@ x = True
 y = False
 if (x):
 	print('x is True')
-if (y):
-	print('y is True')
+if (not y):
+	print('y is False')
+if (y == False):
+	print('y is False')
 elif (x):
-	print('x is True but y is not')
+	print('x and y are True')
 else:
-	print('x and y are False')
+	print('y is True but x is not')
+if (x == True and y == True):
+	print('x and y are True')
 ```
 ## Operators
 ```py
