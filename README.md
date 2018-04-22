@@ -81,3 +81,22 @@ def hello(name):
 	print('Hello '+name)
 hello('World')
 ```
+## Change variable type
+```py
+v = "8"
+print(v + v)
+v = int(v)
+print(v + v)
+v = str(v)
+print(v + v)
+v = "3.5"
+v = float(v)
+print(v * 2)
+```
+## Random number
+```py
+from random import randint
+a = 0
+b = 10
+print(randint(a, b))
+```
