@@ -103,3 +103,11 @@ a = 0
 b = 10
 print(randint(a, b))
 ```
+## Exchange variable
+```py
+a = 1
+b = 0
+print(a + b)
+a,b = b,a
+print(a + b)
+```
