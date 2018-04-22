@@ -59,3 +59,9 @@ array = [5,4,3,2,1]
 for i in range(len(array)):
 	print(array[i])
 ```
+## Input
+```py
+s = input()
+s = s.split(" ")
+print(s[0])
+```
