@@ -64,6 +64,8 @@ for i in range(len(array)):
 	print(array[i])
 for element in array:
 	print(element)
+array.append(0)
+print(array[len(array)-1])
 ```
 ## Input
 ```py
