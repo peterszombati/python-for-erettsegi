@@ -65,3 +65,9 @@ s = input()
 s = s.split(" ")
 print(s[0])
 ```
+## Function
+```py
+def hello(name):
+	print('Hello '+name)
+hello('World')
+```
