@@ -4,7 +4,7 @@ https://www.python.org
 ## File read
 ```py
 f = open('filename.txt','r')
-f = f.read()
+content = f.read()
 f.close()
 ```
 ## File write
