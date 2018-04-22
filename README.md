@@ -85,10 +85,13 @@ hello('World')
 ```py
 v = "8"
 print(v + v)
+
 v = int(v)
 print(v + v)
+
 v = str(v)
 print(v + v)
+
 v = "3.5"
 v = float(v)
 print(v * 2)
