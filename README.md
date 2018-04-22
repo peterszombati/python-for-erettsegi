@@ -62,6 +62,8 @@ if(number == 8 or number < 0):
 array = [5,4,3,2,1]
 for i in range(len(array)):
 	print(array[i])
+for element in array:
+	print(element)
 ```
 ## Input
 ```py
