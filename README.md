@@ -66,6 +66,7 @@ for i in range(len(array)):
 ## Input
 ```py
 s = input()
+print(s)
 s = s.split(" ")
 print(s[0])
 ```
