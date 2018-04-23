@@ -107,7 +107,7 @@ print(randint(a, b))
 ```py
 a = 1
 b = 0
-print(a + b)
+print(a)
 a,b = b,a
-print(a + b)
+print(a)
 ```
