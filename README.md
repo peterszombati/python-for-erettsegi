@@ -68,6 +68,13 @@ for i in range(len(array)):
 for element in array:
 	print(element)
 ```
+## While
+```py
+i = 0
+while(i < 10):
+	print(i)
+	i+=1
+```
 ## Input
 ```py
 s = input()
@@ -110,4 +117,20 @@ b = 0
 print(a)
 a,b = b,a
 print(a)
+```
+## Sorting
+```py
+numbers = [5, 2, 3, 1, 4]
+numbers = sorted(numbers)
+print(numbers)
+
+numbers = sorted(numbers, reverse=True)
+print(numbers)
+
+def test(a):
+	return a[0]
+
+numbers = [[5,'A'], [2,'B'], [3,'C'], [1,'D'], [4,'E']]
+numbers = sorted(numbers, key=test, reverse=True)
+print(numbers)
 ```
