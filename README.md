@@ -44,22 +44,7 @@ else:
 if (x == True and y == True):
 	print('x and y are True')
 ```
-## Operators
-```py
-number = 49
-print(number)
-number += 2
-print(number)
-number = 2 ** 3 # = 2^3
-print(number)
 
-hi = 'Hello'
-hi += ' World'
-print(hi)
-
-if(number == 8 or number < 0):
-	print(number)
-```
 ## For
 ```py
 array = [5,4,3,2,1]
@@ -134,3 +119,14 @@ numbers = [[5,'A'], [2,'B'], [3,'C'], [1,'D'], [4,'E']]
 numbers = sorted(numbers, key=test, reverse=True)
 print(numbers)
 ```
+## Assignment Operators
+| Operator | Description | Example |
+| ------------- |:-------------:| -----:|
+| = | Assigns values from right side operands to left side operand | c = a + b assigns value of a + b into c |
+| += Add AND | It adds right operand to the left operand and assign the result to left operand | c += a is equivalent to c = c + a |
+| -= Subtract AND | It subtracts right operand from the left operand and assign the result to left operand | c -= a is equivalent to c = c - a |
+| *= Multiply AND | It multiplies right operand with the left operand and assign the result to left operand | c *= a is equivalent to c = c * a |
+| /= Divide AND | It divides left operand with the right operand and assign the result to left operand | c /= a is equivalent to c = c / ac /= a is equivalent to c = c / a |
+| %= Modulus AND | It takes modulus using two operands and assign the result to left operand | c %= a is equivalent to c = c % a |
+| **= Exponent AND | Performs exponential (power) calculation on operators and assign value to the left operand | c **= a is equivalent to c = c ** a |
+| //= Floor Division | It performs floor division on operators and assign value to the left operand | c //= a is equivalent to c = c // a |
