@@ -1,6 +1,3 @@
-def feladat(x):
-	print(x,'. feladat',sep='')
-
 # 1. feladat
 f = open('forras/naplo.txt', 'r')
 content = f.read()
@@ -96,4 +93,3 @@ while(i >= 0 and tanulok[i][1] == legtobb):
 	nevek += tanulok[i][0]
 	i -= 1
 print('A legtöbbet hiányzó tanulók:',nevek,sep='')
-
