@@ -7,6 +7,12 @@ https://www.python.org
 
 [in English](https://github.com/peterszombati/python-for-erettsegi/tree/master/tasks/en)
 
+## example
+
+[in Hungarian](https://github.com/peterszombati/python-for-erettsegi/tree/master/example/hu)
+
+[in English](https://github.com/peterszombati/python-for-erettsegi/tree/master/example/en)
+
 ## File read
 ```py
 f = open('filename.txt','r')
