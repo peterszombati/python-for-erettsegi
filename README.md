@@ -1,6 +1,12 @@
 # Python for erettsegi
 https://www.python.org
 
+## test exam
+
+[in Hungarian](https://github.com/peterszombati/python-for-erettsegi/tree/master/tasks/hu)
+
+[in English](https://github.com/peterszombati/python-for-erettsegi/tree/master/tasks/en)
+
 ## File read
 ```py
 f = open('filename.txt','r')
